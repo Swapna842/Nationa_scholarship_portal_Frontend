@@ -1,0 +1,25 @@
+<div class="container login-container">
+    <div class="row1">
+    <div class="shadow p-3 mb-5 bg-body rounded">
+        <div class="row2"><br>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NODAL LOGIN</h2><br>
+            <form [formGroup]="form" class="row g-3" (ngSubmit)="checkLogin()">
+                <div class="col-4">
+                    <label for="nodalId" class="form-label">Registered ID</label>
+                    <input formControlName="nodalId" type="text" class="form-control" [(ngModel)]="nodalId" name="nodalId" placeholder="Enter nodal ID"style="width:max-content" >
+                </div>
+                <div class="col-4">
+                    <label for="inputPassword" class="form-label">Password</label>
+                    <input formControlName="password" type="password" class="form-control" [(ngModel)]="password" name="password" placeholder="Enter password"style="width:max-content" >
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="login-btn btn btn-success" value="login">Login</button>
+                </div>
+                <div class="col-12">
+                    <a href="#" class="ForgetPwd">Forget Password?</a><br>
+                </div>
+            </form>
+        </div>    
+        </div>  
+    </div>
+</div>

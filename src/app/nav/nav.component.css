@@ -1,0 +1,76 @@
+
+img {
+    float: left;
+    width: 80px;
+    
+  }
+ 
+    .logo {
+        font-weight: bold;
+    }
+    .menu
+    {
+        /*background:#e7395e;*/
+        background:#0a99a4;
+    }
+    ul{
+        list-style: none;
+        margin-top: auto;
+    }
+    
+    ul li {
+        display: block;
+        position: relative;
+        float: left;
+    }
+    
+    /* This hides the dropdowns */
+ 
+    li ul { display: none; }
+    
+    ul li a {
+        display: block;
+        padding: .5em 3.4em;
+        text-decoration: none !important;
+        white-space: nowrap;
+        color: #fff;
+    }
+    ul li a:active{
+        background:#0db7c4 !important; 
+    }
+    ul li a:hover { background: #0db7c4; color:#fff;}
+
+    .main-navigation li ul li { border-top: 0; z-index:1; }
+    
+    /* Displays second level dropdowns to the right of the first level dropdown */
+    ul ul ul {
+        left: 100%;
+        top: 0px;
+    }
+    
+    /* Simple clearfix */
+    ul:before,
+    ul:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    
+    ul:after { clear: both;}     
+   
+
+    .home{
+        height:20em; background-size:cover; width:auto;
+        background-position:50% 50%;
+        background-size: cover;
+      }
+      
+      .content{text-align: center;
+        color:teal;
+        font-family: arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+     
+      }
+     

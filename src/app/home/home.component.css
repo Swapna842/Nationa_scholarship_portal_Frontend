@@ -1,0 +1,220 @@
+.wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#lat{
+    margin-left: 40px;
+}
+.float-box{
+    padding: 20px;
+}
+.float-child{
+    float: left;
+    width: 32%;
+    padding: 20px;
+}
+
+.news{
+    padding-top: 25px;
+}
+.mssg{
+    padding-top: 25px;
+}
+#btn1{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#btn5{
+    margin-top: 70px;
+}
+.container-md-01{
+    float: left;
+    margin-left: 0;
+}
+.box3{
+    padding-top: 20px;
+}
+
+.box{
+   /* background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUTiAhEm7qCAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=') ;
+   */
+     background-size:auto;
+}
+
+
+.home{
+    height:20em; background-size:cover; width:auto;
+    background-position:50% 50%;
+    background-size: cover;
+  }
+  
+  .content{text-align: center;
+    color:teal;
+    font-family: arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+ 
+  }
+  /*@charset "utf-8";*/
+/* CSS Document */
+body {
+   
+    font-family: 'Open Sans', sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #dfdfdf;
+}
+.header
+{
+    box-shadow:1px 1px 10px #666;
+    padding:px 0;
+    background: #fff;
+}
+
+
+
+.menu
+{
+    /*background:#e7395e;*/
+    background:#0a99a4;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+/* This hides the dropdowns */
+li ul { display: none; }
+
+ul li a {
+    display: block;
+    padding: .3em 7.7em;
+    text-decoration: none !important;
+    white-space: nowrap;
+    color: #fff;
+}
+ul li a:active{
+    background:#0db7c4 !important; 
+}
+ul li a:hover { background: #0db7c4; color:#fff;}
+ul li a:focus{
+    color:#fff;
+    border:none;
+}
+/* Display the dropdown */
+
+
+li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #0db7c4; }
+
+li:hover li a:hover { background: #0a99a4; }
+
+.main-navigation li ul li { border-top: 0; z-index:1; }
+
+
+
+/* Simple clearfix */
+
+ul:before,
+ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+ul:after { clear: both;} 
+
+.my-container
+{
+    width:92%;
+    margin:0 auto;
+    padding-left: 0px;
+}
+.helpDesk-inner
+{
+    padding:15px 20px;
+    background-size:cover;
+    border-radius:7px;
+    border:2px solid #619797;
+}
+.helpDesk-inner h3
+{
+  padding: 4px;
+    color: #880e4f;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.helpDesk-inner p
+{
+    color:#333;
+    font-weight:400;
+    font-size:16px;
+    text-align:justify;
+}
+.fa-phone
+{
+    height:30px;
+    width:30px;
+    padding:8px;
+    border-radius:50%;
+}
+
+.marquee
+{
+    padding: 0px 0 10px 0; margin-bottom:10px; box-shadow:1px 1px 10px #ccc; border-radius: 7px; height: 200px;
+}
+.marquee h4
+{
+    padding:4px 7px 10px 7px;
+    /*background:#e7395e;*/
+    background:#0a99a4;
+    margin:0;
+    color:#fff;
+}
+.marquee-content
+{
+    padding:15px 12px 2px 12px;
+}
+.fa-bullhorn
+{
+    margin-top:0;
+    font-size:23px !important;
+}
+.marquee p:first-child
+{
+    font-size:13px;
+    text-align:justify;
+    color:#000;
+}
+.marquee p
+{
+    font-size: 22px; color: #df534f;
+}
+.marquee hr
+{
+    margin: 10px 0;
+}
+.marquee p span
+{
+    color:#000; font-weight:400; font-size:17px;
+}
+

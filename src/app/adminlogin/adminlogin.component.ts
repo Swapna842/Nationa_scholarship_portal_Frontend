@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Ministry } from '../ministry';
+import { ministry } from '../ministry';
 import { AdminloginService } from '../adminlogin.service';
 import { student } from '../student';
 
@@ -17,10 +17,11 @@ export class AdminloginComponent implements OnInit {
   ngOnInit(): void {
   }
   user:any;
-  Ministry:Ministry=new Ministry();
+  Ministry:ministry=new ministry();
   loginValues:any;
   loginpass:any;
   loginValid:any;
+  
   form=new FormGroup({
     'admin':new FormControl('',Validators.required),
     'password':new FormControl('',Validators.required)

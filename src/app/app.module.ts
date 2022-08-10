@@ -26,6 +26,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { StudentapplicationministryComponent } from './studentapplicationministry/studentapplicationministry.component';
 import { InstitutefinalapprovalComponent } from './institutefinalapproval/institutefinalapproval.component';
 import { NavComponent } from './nav/nav.component';
+import { AdminloginComponent } from './adminlogin/adminlogin.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { NavComponent } from './nav/nav.component';
     PagenotfoundComponent,
     StudentapplicationministryComponent,
     InstitutefinalapprovalComponent,
-    NavComponent
+    NavComponent,
+    AdminloginComponent
   ],
   imports: [
     BrowserModule,
